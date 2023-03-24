@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            align-items: center;
+            min-height: 100vh;
+            font-family: 'Jost', sans-serif;
+            background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+        }
+
+        .header {
+            width: 100%;
+            height: 150px;
+        }
+
+        .header__name {
+            background-color: #99cdff;
+            height: 80px;
+            display: flex;
+            left: 0;
+            bottom: 0;
+        }
+
+        .header__name h1 {
+            margin-top: 36px;
+            margin-left: 124px;
+            color: #0f247b;
+        }
+
+        .header__name p {
+            margin-top: 50px;
+            margin-left: 20px;
+            color: #9c3b37;
+            font-size: 16px;
+        }
+
+        .header__home {
+            background-color: #023199;
+            width: 100%;
+            height: 40px;
+            color: #fff;
+        }
+
+        .header__home h1 {
+            font-size: 20px;
+            padding: 8px 22px;
+            margin-left: 108px;
+        }
+
+        .body {
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .body h1 {
+            margin-left: 20px;
+            font-weight: 500;
+            color: #fff;
+            margin-left: 74px;
+            margin-right: 1032px;
+            margin-bottom: 36px;
+        }
+
+        .list-product {
+            height: auto;
+            width: 1346px;
+        }
+
+        .product-item {
+            width: 210px;
+            height: 250px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            background-color: #fff;
+            padding: 10px;
+        }
+
+        .list-product-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .list-product-img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            object-position: center;
+            
+        }
+
+        .list-product-name {
+            margin-left: 22px;
+            font-weight: 500;
+            color: #0f0c29;
+            text-align: center;
+        }
+
+        .list-product-price {
+            margin-left: 22px;
+            color: #0f0c29;
+            text-align: center;
+        }
+
+        .footer {
+            width: 100%;
+            height: 45px;
+            background-color: #0066cb;
+            position: fixed;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header__name">
+            <h1>Clothing Shop</h1>
+        </div>
+        <div class="header__home">
+            <h1>HOME</h1>
+        </div>
+    </div>
+    <div class="body">
+        <h1>Danh sách sản phẩm</h1>
+        <div class="list-product">
+            <div class="list-product-container">
+                <div class="product-item">
+                    <img class="list-product-img" src="image/ao1.png" alt="">
+                    <p class="list-product-name">Hello</p>
+                    <p class="list-product-price">Price: $99</p>
+                </div>
+                <div class="product-item">
+                    <img class="list-product-img" src="image/ao2.png"  alt="">
+                    <p class="list-product-name">Product Name</p>
+                    <p class="list-product-price">Price: $219</p>
+                </div>
+                <div class="product-item">
+                    <img class="list-product-img" src="image/ao3.png"  alt="">
+                    <p class="list-product-name">Product Name</p>
+                    <p class="list-product-price">Price: $199</p>
+                </div>
+                <div class="product-item">
+                    <img class="list-product-img" src="image/quan1.png"  alt="">
+                    <p class="list-product-name">Product Name</p>
+                    <p class="list-product-price">Price: $159</p>
+                </div>
+                <div class="product-item">
+                    <img class="list-product-img" src="image/quan2.png"  alt="">
+                    <p class="list-product-name">Product Name</p>
+                    <p class="list-product-price">Price: $259</p>
+                </div>
+                <div class="product-item">
+                    <img class="list-product-img" src="image/quan3.png"  alt="">
+                    <p class="list-product-name">Product Name</p>
+                    <p class="list-product-price">Price: $299</p>
+                </div>   
+                <div class="product-item">
+                    <img class="list-product-img" src="image/ao1.png" alt="">
+                    <p class="list-product-name">Hello</p>
+                    <p class="list-product-price">Price: $99</p>
+                </div>
+                <div class="product-item">
+                    <img class="list-product-img" src="image/ao2.png"  alt="">
+                    <p class="list-product-name">Product Name</p>
+                    <p class="list-product-price">Price: $219</p>
+                </div>
+                <div class="product-item">
+                    <img class="list-product-img" src="image/ao3.png"  alt="">
+                    <p class="list-product-name">Product Name</p>
+                    <p class="list-product-price">Price: $199</p>
+                </div>
+                <div class="product-item">
+                    <img class="list-product-img" src="image/quan1.png"  alt="">
+                    <p class="list-product-name">Product Name</p>
+                    <p class="list-product-price">Price: $159</p>
+                </div>
+                <div class="product-item">
+                    <img class="list-product-img" src="image/quan2.png"  alt="">
+                    <p class="list-product-name">Product Name</p>
+                    <p class="list-product-price">Price: $259</p>
+                </div>
+                <div class="product-item">
+                    <img class="list-product-img" src="image/quan3.png"  alt="">
+                    <p class="list-product-name">Product Name</p>
+                    <p class="list-product-price">Price: $299</p>
+                </div>   
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+
+    </div>
+</body>
+
+</html>
